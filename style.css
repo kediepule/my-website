@@ -54,7 +54,6 @@ a {
 a:hover {
   color: grey;
   text-decoration: underline;
-  text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -430,3 +429,83 @@ footer {
 footer p {
   text-align: center;
 }
+#weather{
+  display:block;
+}
+
+#weather{
+  background-color: hsla(15, 68%, 85%, 0.4);
+}
+.weather-card {
+  padding: 1.5rem;
+  max-width: 100%;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  background-image: url('https://source.unsplash.com/1600x900/?nature,sunset');
+  background-size: cover; 
+  background-position: center; 
+  color: white; 
+}
+
+.weather-city{
+  margin-bottom: .6rem;
+  margin-top: .6rem;
+}
+
+.search-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.weather-search-button{
+  border: 2px solid var(--the-orange);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--black-color);
+  cursor: pointer;
+  transition: background-color .4s;
+}
+
+.weather-search-button svg {
+  fill: white;
+  transition: fill .4s;
+}
+
+.weather-search-button svg:hover{
+  fill: var(--black-color);
+}
+
+.weather-search-bar{
+  border: 2px solid var(--the-orange);
+  color: white;
+  padding: .5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: .8rem;
+  border-radius: 18px;
+  font-family: inherit;
+  width: calc(100% - 3rem);
+}
+
+.weather-search-button:hover{
+  background-color: #fff;
+}
+
+.weather-statement{
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.weather{
+  margin-bottom: 1.5rem;
+}
+
+.weather-statement p{
+  margin-bottom: .8rem;
+}
+
+.weather-statement ul li{
+  line-height: 1.5rem;
+}
+
